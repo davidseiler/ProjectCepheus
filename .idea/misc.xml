@@ -3,7 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/David/AndroidStudioProjects/ProjectCepheus/app/src/main/res/drawable-v24/picture_wipe_boarder.xml" value="0.1" />
+        <entry key="..\:/Users/David/AndroidStudioProjects/ProjectCepheus/app/src/main/res/layout/activity_capture.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/David/AndroidStudioProjects/ProjectCepheus/app/src/main/res/layout/activity_contents_grid.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/David/AndroidStudioProjects/ProjectCepheus/app/src/main/res/layout/activity_date_list.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/David/AndroidStudioProjects/ProjectCepheus/app/src/main/res/layout/activity_device_discovery.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/David/AndroidStudioProjects/ProjectCepheus/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/David/AndroidStudioProjects/ProjectCepheus/app/src/main/res/layout/activity_sample_camera.xml" value="0.18802083333333333" />
       </map>
     </option>
   </component>

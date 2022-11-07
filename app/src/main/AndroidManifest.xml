@@ -1,26 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.projectcepheus">
+    package="com.david_seiler.project_cepheus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
         android:allowBackup="true"
+        android:name="com.david_seiler.project_cepheus.camera.sony.old.SampleApplication"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
+        android:usesCleartextTraffic="true"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectCepheus"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name="com.david_seiler.project_cepheus.camera.sony.old.DeviceDiscoveryActivity"
+            android:label="@string/app_name"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="com.david_seiler.project_cepheus.ui.CaptureActivity"
+            android:label="Capture Activity" />
+        <activity
+            android:name="com.david_seiler.project_cepheus.camera.sony.old.SampleCameraActivity"
+            android:label="Sample Camera" />
+        <activity
+            android:name="com.david_seiler.project_cepheus.camera.sony.old.DateListActivity"
+            android:label="Date list">
+        </activity>
+        <activity
+            android:name="com.david_seiler.project_cepheus.camera.sony.old.ContentsGridActivity"
+            android:label="Contents Grid">
+        </activity>
+        <activity
+            android:name="com.david_seiler.project_cepheus.camera.sony.old.StillContentActivity"
+            android:label="still content activity">
+        </activity>
+        <activity
+            android:name="com.david_seiler.project_cepheus.camera.sony.old.MovieContentActivity"
+            android:label="movie content">
         </activity>
     </application>
 

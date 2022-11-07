@@ -1,0 +1,6 @@
+C:/Users/David/AndroidStudioProjects/ProjectCepheus/app/libs/sony/out/build/x64-Debug/CMakeFiles/RemoteCli.dir
+C:/Users/David/AndroidStudioProjects/ProjectCepheus/app/libs/sony/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/David/AndroidStudioProjects/ProjectCepheus/app/libs/sony/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/David/AndroidStudioProjects/ProjectCepheus/app/libs/sony/out/build/x64-Debug/CMakeFiles/list_install_components.dir
+C:/Users/David/AndroidStudioProjects/ProjectCepheus/app/libs/sony/out/build/x64-Debug/CMakeFiles/install.dir
+C:/Users/David/AndroidStudioProjects/ProjectCepheus/app/libs/sony/out/build/x64-Debug/CMakeFiles/install/local.dir
